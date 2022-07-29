@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+   char s;
+   int x,y;
+   cin>>x>>s>>y;
+   printf("%02d Hour and %02d Minute",x,y);
+    return 0;
+}
