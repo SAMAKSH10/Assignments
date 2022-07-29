@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-   char s='\';
-   cout<<s<<"n";
+  
+   cout<<"\\n";
     return 0;
 }
