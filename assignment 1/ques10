@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+   char s,d;
+   int x,y,z;
+   cin>>x>>s>>y>>d>>z;
+   printf("Day – %02d ,Month – %02d , Year – %04d",x,y,z);
+    return 0;
+}
