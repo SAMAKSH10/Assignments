@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+void high(int n,int c);
+int main(){
+    int n,c=0,y;
+    cin>>n;
+    y=n;
+    while(y>0){
+      y=y/10;
+        c++;
+    }
+    high(n,c);
+    return 0;
+}
+void high(int n,int c){
+    int arr[c],max=0,i=0,j;
+    while(n>0){ 
+      arr[i]=n%10;
+      i++;
+      n=n/10;
+    }
+    max=arr[0];
+    for(j=0;j<c;j++){
+        if(arr[j]>max){
+        max=arr[j];
+        }
+    }
+    cout<<"Max digit of number is "<<max<<endl;
+}
