@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+void add(int x,int y);
+void add(float y,float z);
+int main()
+{
+    int x,w;
+    float y,z; 
+    cin>>w>>x;
+    add(w,x);
+    cin>>y>>z;
+    add(y,z);
+    return 0;
+}
+void add(int x,int y){
+    cout<<(x+y)<<endl;
+}
+void add(float y,float z){
+    cout<<(y+z)<<endl;
+}
