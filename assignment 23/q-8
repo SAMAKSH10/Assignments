@@ -1,0 +1,12 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main()
+
+{
+    float x,y;
+    cin>>x>>y;
+if (x>y) cout<<x<<" is greatest"<<endl;
+else cout<<y<<" is greatest"<<endl;
+    return 0;
+}
