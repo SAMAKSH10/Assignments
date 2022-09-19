@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+class Square{
+    int n,count=0;
+    public:
+    void set(){
+        cin>>n;
+        count++;
+    }
+    void print(){
+       cout<<"Square of a number is "<<n*n;
+       count++;
+    }
+    void counting(){
+        cout<<"\nNumber of times function is called is "<<count;
+    }
+};
+int main()
+{
+    Square n;
+    n.set();
+    n.print();
+    n.counting();
+    return 0;
+}
