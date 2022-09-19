@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+class Circle{
+    float r,pi=3.14;
+    public:
+    void set(){
+        cin>>r;
+    }
+    void print(){
+       cout<<"Area of Rectangle is "<<pi*r*r;
+    }
+};
+int main()
+{
+    Circle n;
+    n.set();
+    n.print();
+    return 0;
+}
