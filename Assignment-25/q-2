@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+class Time{
+    int hours,minutes,seconds;
+    public:
+    void set(){
+        cin>>hours>>minutes>>seconds;
+    }
+    void print(){
+        cout<<hours<<" hr "<<minutes<<" min "<<seconds<<" sec ";
+    }
+};
+int main()
+{
+    Time t;
+    t.set();
+    t.print();
+    return 0;
+}
