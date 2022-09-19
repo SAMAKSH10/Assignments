@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+class Complex{
+    int real,imaginary;
+    public:
+    void set(){
+        cin>>real>>imaginary;
+    }
+    void print(){
+        cout<<real<<"+"<<imaginary<<"i";
+    }
+};
+int main()
+{
+    Complex c;
+    c.set();
+    c.print();
+    return 0;
+}
