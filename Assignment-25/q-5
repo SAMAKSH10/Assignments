@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+class ReverseNumber{
+    int n;
+    public:
+    void set(){
+        cin>>n;
+    }
+    void print(){
+        int rev=0,i,y;
+        while(n>0){
+            y=n%10;
+            rev=rev*10+y;
+            n=n/10;
+        }
+        cout<<rev;
+    }
+};
+int main()
+{
+    ReverseNumber n;
+    n.set();
+    n.print();
+    return 0;
+}
