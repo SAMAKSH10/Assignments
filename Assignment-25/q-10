@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+class Area{
+    float n,l,b,r;
+    public:
+    void square(float x)
+    {
+        n=x*x;
+        cout<<"Area of square : "<<(x*x)<<endl;
+    }
+    void rectangle(float x,float y)
+    {
+        l=x;
+        b=y;
+        cout<<"Area of rectangle : "<<l*b<<endl;
+    }
+    void circle(float x){
+        r=x;
+        cout<<"Area of circle : "<<3.14*r*r<<endl;
+    }
+};
+int main() {
+	Area n1;
+	n1.square(23);
+	n1.circle(28);
+	n1.rectangle(23,28);
+	return 0;
+}
