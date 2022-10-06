@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+void add(int x,int y,int z=0)
+{
+    cout<<x+y+z<<endl;
+}
+int main()
+{
+    int x=6,y=4;
+    add(x,y);
+    cout<<endl;
+    int z=9;
+    add(x,y,z);
+    return 0;
+}
