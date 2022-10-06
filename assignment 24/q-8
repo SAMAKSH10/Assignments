@@ -1,0 +1,23 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+void Area(float r)
+{
+    cout<<3.14*r*r<<endl;
+}
+void Area(float x,float y)
+{
+    cout<<x*y<<endl;
+}
+void Area(float a,float b,float c)
+{
+    float s=(a+b+c)/2;
+    cout<<sqrt(s*(s-a)*(s-b)*(s-c))<<endl;
+}
+int main()
+{
+   Area(2.2);
+   Area(2,6);
+   Area(4,4,4);
+    return 0;
+}
