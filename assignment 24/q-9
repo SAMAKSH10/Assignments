@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+void Max(int x , int y){
+    if(x>y) cout<<x<<" is greatest  "<<endl;
+    else cout<<y<<" is greatest "<<endl;
+}
+void Max(double x1 , double y1){
+    if(x1>y1) cout<<x1<<" is greatest  "<<endl;
+    else cout<<y1<<" is greatest "<<endl;
+}
+int main()
+{
+    Max(2,7);
+    Max(2.6,9.5);
+
+    return 0;
+}
