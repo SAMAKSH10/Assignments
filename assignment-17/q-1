@@ -3,7 +3,7 @@ using namespace std;
 int count(char a[]){
     int n=0,i=0;
     while(a[i]!='\0'){
-       if((a[i]>='a'|| a[i]>='A'||a[i]>='0')&&(a[i]<='z'||a[i]<='Z'||a[i]<='9')) n++;
+        n++;
         i++;
     }
     return n;
