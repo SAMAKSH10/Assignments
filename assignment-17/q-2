@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int count(char a[]){
+    int n=0,i=0;
+    while(a[i]!='\0'){
+       if((a[i]>='a'|| a[i]>='A'||a[i]>='0')&&(a[i]<='z'||a[i]<='Z'||a[i]<='9')) n++;
+        i++;
+    }
+    return n;
+}
+
+int main()
+{
+    char a[20];
+    scanf("%[^\n]s",a);
+    printf("Number of Terms in the Strings are : %d",count(a));
+    return 0;
+}
